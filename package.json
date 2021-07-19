@@ -1,0 +1,23 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "cross-env TS_NODE_PROJECT=\"./webpack_config/tsconfig.json\" webpack -c ./webpack_config/webpack.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.3.3",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^3.11.5",
+    "cross-env": "^7.0.3",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.1.0",
+    "tsconfig-paths": "^3.10.1",
+    "typescript": "^4.3.5",
+    "webpack-cli": "^4.7.2"
+  }
+}
